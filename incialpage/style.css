@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+.title {
+    position: absolute;
+    font-size: 150px;
+    color: white;
+    font-weight: 1000;
+    top: 150px;
+    left:200px;
+}
+
+.formLogin {
+    position: absolute;
+    top: 150px; 
+    right: 200px;
+    background: #CCC;
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+    border:#CCC;
+    border-style: solid;
+    overflow: hidden;
+
+}
+
+
+
+.formLogin > * {
+    margin: 10px;
+}
+
+.formSingUp > * {
+    margin: 10px;
+    
+}
+
+.formSingUp {
+    position: relative;
+    left: -15px;
+}
+
+
+
+.divSingUp {
+    color: #999;
+    margin: 3px;
+}
+
+.btn {
+    padding: 5px;
+    background:black;
+    color: white;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background: green;
+    cursor: pointer;
+}
+
+.btnLogin {
+    position: absolute;
+    top: 110px;
+    right: 50px;  
+}
+
+.btnSingUp {
+    position: absolute; 
+    bottom: -50px;
+    right: 0px;
+}
+
+
+
+
+.divSingUp:hover {
+    cursor:pointer;
+    color: green;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}

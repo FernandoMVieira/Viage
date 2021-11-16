@@ -1,0 +1,23 @@
+
+
+
+body {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+}
+
+form{
+    font-family:Verdana, Geneva, sans-serif;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, sans-serif;
+    
+}
+
+dl {
+    font-family:Verdana, Geneva, sans-serif;
+}

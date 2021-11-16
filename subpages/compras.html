@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V!AGE</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+       <h1>Bem vindo ao V!age, escolha seu destino</h1><br>
+       <form action="" method="get" class="compras">
+            <div class="compras">
+                <label for="destino">Escolha o seu destino:</label>
+                <input list="escolha_dest" id="destino" name="escolha"/>
+
+                <datalist id="escolha_dest">
+                    <option value="Pernambuco">
+                    <option value="Ipanema">
+                    <option value="Noronha">
+                    <option value="Mato Grosso">
+                </datalist>
+
+            </div>
+
+            <br>
+            <br>
+
+            <div>
+                <label for="partida">Data de partida:</label>
+                <input type="date" id="partida" name="partida">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="volta">Data de Chegda:</label>
+                <input type="date" id="volta" name="volta">
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <button type="reset" onclick="location.href='contato.html'">
+                Partiu!
+            </button>
+            
+
+       </form>
+</body>
+</html>
