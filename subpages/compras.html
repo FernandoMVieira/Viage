@@ -8,12 +8,12 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-       <h1>Bem vindo ao V!age, escolha seu destino</h1><br>
-       <form action="" method="get" class="compras">
+       <h1>Bem vindo ao V!age, escolha seu destino!</h1><br>
+
+       <form method="get" action="dados.php">
             <div class="compras">
                 <label for="destino">Escolha o seu destino:</label>
-                <input list="escolha_dest" id="destino" name="escolha"/>
-
+                <input type="text" list="escolha_dest" name="escolha"/>
                 <datalist id="escolha_dest">
                     <option value="Pernambuco">
                     <option value="Ipanema">
@@ -42,10 +42,8 @@
             <br>
             <br>
 
-            <button type="reset" onclick="location.href='contato.html'">
-                Partiu!
-            </button>
-            
+            <input type="submit" value="Partiu"/>
+        
 
        </form>
 </body>
